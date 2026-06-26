@@ -2,10 +2,10 @@
   "manifest_version": 3,
   "name": "Can I Trust This Website?",
   "version": "1.0",
+  "description": "Checks basic trust signals for the current website.",
+  "permissions": ["tabs", "activeTab"],
+  "host_permissions": ["<all_urls>"],
   "action": {
     "default_popup": "popup.html"
-  },
-  "permissions": [
-    "activeTab"
-  ]
+  }
 }
